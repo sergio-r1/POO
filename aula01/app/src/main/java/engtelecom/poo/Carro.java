@@ -8,11 +8,11 @@ public class Carro {
 
     //metodos
     public void definirModelo(String m){
-
+        modelo = m;
     }
 
     public void definirVelocidadeAtual(int v){
-
+        velocidadeAtual = v;
     }
 
     public String obterModelo(){

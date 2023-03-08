@@ -3,9 +3,26 @@
  */
 package engtelecom.poo;
 
+import java.util.Random;
+
 public class App {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+
+        Random r = new Random();
+
+        Carro f = new Carro();
+        Carro g = new Carro();
+
+        f.definirModelo("Fusca");
+        g.definirModelo("Gol");
+
+        f.definirVelocidadeAtual(20);
+        g.definirVelocidadeAtual(90);
+
+        System.out.println(f.obterModelo() + " está a  " + f.obterVelocidadeAtual());
+        System.out.println(g.obterModelo() + " está a  " + g.obterVelocidadeAtual());
+
+
     }
 }
