@@ -5,9 +5,14 @@ package engtelecom.poo;
 
 import java.util.Random;
 
+import javax.annotation.processing.SupportedSourceVersion;
+
 public class App {
 
     public static void main(String[] args) {
+        /* 
+
+        Aula Carro
 
         Random r = new Random();
 
@@ -22,7 +27,25 @@ public class App {
 
         System.out.println(f.obterModelo() + " está a  " + f.obterVelocidadeAtual());
         System.out.println(g.obterModelo() + " está a  " + g.obterVelocidadeAtual());
+        */
 
+        /* 
+
+        Aula Ar condicionado
+
+        CondicionadorDeAr lg = new CondicionadorDeAr();
+        CondicionadorDeAr sansung = new CondicionadorDeAr();
+        
+
+        System.out.println("Está ligado? " + lg.getLigado());
+        lg.setLigado();
+        System.out.println("Está ligado? " + lg.getLigado());
+
+        */
+
+        Aluno a = new Aluno("Guga", 16, "guga@guga.com", 123456789);
+
+        
 
     }
 }
